@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tazza</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="lorem_ipsum">http://blog.naver.com/since201109</string>
+    <string name="title_template_step">http://cafe.naver.com/since201109</string>
+
+</resources>

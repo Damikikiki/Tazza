@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="touch.androidtown.org.tazza.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<org.android.ui.flipper.ScreenViewFlipper
+    android:id="@+id/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+
+        android:scaleType="fitXY"
+        android:padding="0sp"
+        android:src="@drawable/baccarat"
+        android:onClick="baccarat"
+        />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:padding="0sp"
+            android:src="@drawable/roulette"
+            android:onClick="roulette"
+            />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:padding="0sp"
+        android:src="@drawable/blackjack"
+        android:onClick="blackjack"
+        />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
